@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+    <title> CSS Selectors <!--Sidebar name--> </title>
+    <style>
+        /* Element selectors */
+        body{
+
+            background-color: #333;
+        }
+      
+        /* . is for classes */
+        .primary-heading{
+            color:green;
+        
+        }
+       /* # for id's */
+        #welcome{
+            background-color: aliceblue;
+        }
+        /* Multiple selectors */
+        #welcome,#about{
+            border:1px solid #cccccc;
+            padding: 10px;
+            margin-bottom:5px;
+        }
+        /* Nested Selector */
+        #welcome p{
+
+            font-size: 20px;
+        }
+        #about{
+            color:white;
+        }
+    </style>
+ </head>
+ <body>
+<div id="welcome">
+    <h2 class="primary-heading">Welcome</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, earum autem. 
+        Earum velit fugiat hic? Officiis, <br>
+        inventore voluptas dolorum, quisquam exercitationem<br>
+         eligendi assumenda ducimus porro quasi explicabo <br>
+         laborum saepe non.</p>
+</div>
+<div id= "about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, earum autem. 
+        Earum velit fugiat hic? Officiis, <br>
+        inventore voluptas dolorum, quisquam exercitationem<br>
+         eligendi assumenda ducimus porro quasi explicabo <br>
+         laborum saepe non.</p>
+</div>
+ </body>
+</html>
+
