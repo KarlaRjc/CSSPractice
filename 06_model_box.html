@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+ <!--Describes the type of document-->
+<html>
+ <head>
+    <title> Box Model / Margin & Padding </title>
+    <style>
+        /* CSS Reset, is used to reset all default
+         modificacions of marging and the model box  */
+         * { 
+             /* * is used to select everything */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+        .box{
+            background: #f4f4f4;
+            border:2px #777 solid;
+            width: 500px;
+
+            /* Padding on all sides */
+            padding:  20px;
+
+            /* Padding per side */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+
+                /* To make code shorter  */
+
+            /* Padding shorthand = top, right, bottom, left */
+            padding: 10px,20px,10px,20px;
+          
+            /* Padding shothand=top/bottom left/right */
+            padding: 10px 20px;
+            
+            /* Maring on all sides */
+             margin: 20px;
+
+               /* Margin per side */
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+                /****** To make code shorter *****/
+
+            /* Maring shorthand = top, right, bottom, left */
+            margin: 10px,20px,10px,20px;
+          
+            /* Marging shothand=top/bottom left/right */
+            margin: 10px 20px;
+        }
+        .box h3{
+                /* Spacing under the heading */
+            padding-bottom: 10px;
+        }
+        
+    </style>
+ </head>
+ <body>
+<div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Harum odit ipsam ducimus eum minima architecto adipisci
+         accusamus, dolore, officiis veniam 
+         at modi optio alias aspernatur
+         consequuntur iusto rerum corporis vel?</p>
+</div>
+<div class="box">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Harum odit ipsam ducimus eum minima architecto adipisci
+         accusamus, dolore, officiis veniam 
+         at modi optio alias aspernatur
+         consequuntur iusto rerum corporis vel?</p>
+</div>
+ </body>
+</html>
+
